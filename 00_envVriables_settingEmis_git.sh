@@ -36,7 +36,7 @@ export empty_emis_dir='"/gpfs/home/hpc15zha/project/11_wrfchem_20211129/output/E
 # this is merged emission of whole sim. domain
 export MOZART_emis_dir='"/gpfs/home/hpc15zha/project/11_wrfchem_20211129/output/EmisUpdate_1/LongTermSim/2017/MOZART_MEICV14/emis/201707/meic_edgarmerged/"#'
 
-sed -i "1s,^,mozart_dir = ${MOZART_emis_dir}," ./01_20230915_mapping_MOZARTtoRADM2emis.py
-sed -i "2s,^,wrfchemi_dir = ${empty_emis_dir}," ./01_20230915_mapping_MOZARTtoRADM2emis.py
+sed -i "1s,^,mozart_dir = ${MOZART_emis_dir}," ./03_20230915_mapping_MOZARTtoRADM2emis.py
+sed -i "2s,^,wrfchemi_dir = ${empty_emis_dir}," ./03_20230915_mapping_MOZARTtoRADM2emis.py
 
 
