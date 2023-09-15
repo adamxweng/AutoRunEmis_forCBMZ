@@ -8,5 +8,5 @@ source ~/.bash_profile
 bash 01_bash_auto_anthroInp_InJect_emptywrfchemi.sh && bash 02_bash_auto_sectorWRFchemi.sh
 module add python/anaconda/2019.10/3.7
 conda activate wrfchemi
-python3 01_20230915_mapping_MOZARTtoRADM2emis.py
+python3 03_20230915_mapping_MOZARTtoRADM2emis.py
 bash 04_move_wrfchemi.sh
